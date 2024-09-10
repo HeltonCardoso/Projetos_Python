@@ -9,7 +9,10 @@ pyautogui.write("Excel")
 #pyautogui.press("backspace")
 pyautogui.press("enter")
 
-time.sleep(10)
+time.sleep(7)
+pyautogui.click(x=250, y=194)
+time.sleep(5)
+#pyautogui.hotkey('ctrl', 'shift','n')
 pyautogui.hotkey('alt', 'f4')
 
 #pyautogui.press("win")
